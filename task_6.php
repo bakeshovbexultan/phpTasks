@@ -27,7 +27,7 @@
                     'twitter_link' => 'https://twitter.com/@myplaneticket',
                     'twitter_login' => '@myplaneticket',
                     'wrapbootstrap_link' => 'https://wrapbootstrap.com/user/myorange',
-                    'pop-up' => 'Contact Sunny',
+                    'pop_up' => 'Contact Sunny',
                     'img_src' => 'img/demo/authors/sunny.png',
                     'is_banned' => false,
                 ],
@@ -38,7 +38,7 @@
                     'twitter_link' => 'https://twitter.com/@atlantez',
                     'twitter_login' => '@atlantez',
                     'wrapbootstrap_link' => 'https://wrapbootstrap.com/user/Walapa',
-                    'pop-up' => 'Contact Jos',
+                    'pop_up' => 'Contact Jos',
                     'img_src' => 'img/demo/authors/josh.png',
                     'is_banned' => false,
                 ],
@@ -49,7 +49,7 @@
                     'twitter_link' => 'https://twitter.com/@lodev09',
                     'twitter_login' => '@lodev09',
                     'wrapbootstrap_link' => 'https://wrapbootstrap.com/user/lodev09',
-                    'pop-up' => 'Contact Jovanni',
+                    'pop_up' => 'Contact Jovanni',
                     'img_src' => 'img/demo/authors/jovanni.png',
                     'is_banned' => true,
                 ],
@@ -60,7 +60,7 @@
                     'twitter_link' => 'https://twitter.com/@sildur',
                     'twitter_login' => '@sildur',
                     'wrapbootstrap_link' => 'https://wrapbootstrap.com/user/sildur',
-                    'pop-up' => 'Contact Roberto',
+                    'pop_up' => 'Contact Roberto',
                     'img_src' => 'img/demo/authors/roberto.png',
                     'is_banned' => true,
                 ],
@@ -92,7 +92,7 @@
                                             </small>
                                         </h5>
                                         <a href="<?= $user['twitter_link']; ?>" class="text-info fs-sm" target="_blank"><?= $user['twitter_login']; ?></a> -
-                                        <a href="<?= $user['wrapbootstrap_link']; ?>" class="text-info fs-sm" target="_blank" title="<?= $user['pop-up']; ?>"><i class="fal fa-envelope"></i></a>
+                                        <a href="<?= $user['wrapbootstrap_link']; ?>" class="text-info fs-sm" target="_blank" title="<?= $user['pop_up']; ?>"><i class="fal fa-envelope"></i></a>
                                     </div>
                                 </div>
                             <?php endforeach; ?>
