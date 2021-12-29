@@ -22,7 +22,8 @@ if(empty($task)) {
 if(password_verify($password, $task[0]['password'])) {
 	$success = 'Вы успешно авторизовались';
 	$_SESSION['success'] = $success;
-
+	$_SESSION['login'] = [$email, $password];
+	
 	header("Location: /task_14.php");
 	exit;
 } else {
